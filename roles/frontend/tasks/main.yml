@@ -2,6 +2,11 @@
   ansible.builtin.yum:
     name: nginx
     state: installed
+  register: out
+
+- name: out
+  debug:
+    msg: "{{out}}"
 
 #- name: Remove old HTTP Documents
 #  ansible.builtin.file:
