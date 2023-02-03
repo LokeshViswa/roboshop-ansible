@@ -1,11 +1,8 @@
-- name: Test
-  ansible.builtin.debug:
-    msg: Hello From Frontend
-#- name: Install Nginx
-#  ansible.builtin.yum:
-#    name: nginx
-#    state: installed
-#
+- name: Install Nginx
+  ansible.builtin.yum:
+    name: nginx
+    state: installed
+
 #- name: Remove old HTTP Documents
 #  ansible.builtin.file:
 #    path: /usr/share/nginx/html
