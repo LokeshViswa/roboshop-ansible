@@ -43,6 +43,13 @@
     enabled: yes
     state: restarted
 
+- name: Load Schema
+  community.mongodb.mongodb_shell:
+    login_host: mongodb-dev.lokeshviswa44.online
+    file: "/app/schema/catalogue.js"
+    idempotent: yes
+
+
 
 #- name: Import NodeJS
 #  ansible.builtin.import_role:
