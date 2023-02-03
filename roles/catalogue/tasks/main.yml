@@ -52,7 +52,7 @@
   ansible.builtin.yum:
     name: mongodb-org-shell
     state: installed
-    
+
 - name: Load Schema
   community.mongodb.mongodb_shell:
     login_host: mongodb-dev.lokeshviswa44.online
