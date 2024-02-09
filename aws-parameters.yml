@@ -8,49 +8,49 @@
         value: "{{ item.value }}"
         region: us-east-1
       loop:
-        - {name: "dev.cart.REDIS_HOST", value: "redis-dev.lokeshviswa44.online" }
-        - {name: "dev.cart.CATALOGUE_HOST", value: "catalogue-dev.lokeshviswa44.online" }
+        - {name: "dev.cart.REDIS_HOST", value: "redis-dev.lokesh33.online" }
+        - {name: "dev.cart.CATALOGUE_HOST", value: "catalogue-dev.lokesh33.online" }
         - {name: "dev.catalogue.MONGO", value: "true" }
-        - {name: "dev.catalogue.MONGO_URL", value: "mongodb://mongodb-dev.lokeshviswa44.online:27017/catalogue" }
-        - {name: "dev.catalogue.MONGO_URL", value: "mongodb://mongodb-dev.lokeshviswa44.online:27017/catalogue" }
-        - {name: "dev.frontend.CATALOGUE_URL", value: "http://catalogue-dev.lokeshviswa44.online:80/" }
-        - {name: "dev.frontend.CART_URL", value: "http://cart-dev.lokeshviswa44.online:80/" }
-        - {name: "dev.frontend.USER_URL", value: "http://user-dev.lokeshviswa44.online:80/" }
-        - {name: "dev.frontend.PAYMENT_URL", value: "http://payment-dev.lokeshviswa44.online:80/" }
-        - {name: "dev.frontend.SHIPPING_URL", value: "http://shipping-dev.lokeshviswa44.online:80/" }
-        - {name: "dev.payment.CART_HOST", value: "cart-dev.lokeshviswa44.online" }
-        - {name: "dev.payment.USER_HOST", value: "user-dev.lokeshviswa44.online" }
+        - {name: "dev.catalogue.MONGO_URL", value: "mongodb://mongodb-dev.lokesh33.online:27017/catalogue" }
+        - {name: "dev.catalogue.MONGO_URL", value: "mongodb://mongodb-dev.lokesh33.online:27017/catalogue" }
+        - {name: "dev.frontend.CATALOGUE_URL", value: "http://catalogue-dev.lokesh33.online:80/" }
+        - {name: "dev.frontend.CART_URL", value: "http://cart-dev.lokesh33.online:80/" }
+        - {name: "dev.frontend.USER_URL", value: "http://user-dev.lokesh33.online:80/" }
+        - {name: "dev.frontend.PAYMENT_URL", value: "http://payment-dev.lokesh33.online:80/" }
+        - {name: "dev.frontend.SHIPPING_URL", value: "http://shipping-dev.lokesh33.online:80/" }
+        - {name: "dev.payment.CART_HOST", value: "cart-dev.lokesh33.online" }
+        - {name: "dev.payment.USER_HOST", value: "user-dev.lokesh33.online" }
         - {name: "dev.payment.CART_PORT", value: "80" }
         - {name: "dev.payment.USER_PORT", value: "80" }
-        - {name: "dev.payment.AMQP_HOST", value: "rabbitmq-dev.lokeshviswa44.online" }
+        - {name: "dev.payment.AMQP_HOST", value: "rabbitmq-dev.lokesh33.online" }
         - {name: "dev.payment.AMQP_USER", value: "roboshop" }
-        - {name: "dev.shipping.CART_ENDPOINT", value: "cart-dev.lokeshviswa44.online:80" }
-        - {name: "dev.shipping.DB_HOST", value: "mysql-dev.lokeshviswa44.online" }
+        - {name: "dev.shipping.CART_ENDPOINT", value: "cart-dev.lokesh33.online:80" }
+        - {name: "dev.shipping.DB_HOST", value: "mysql-dev.lokesh33.online" }
         - {name: "dev.user.MONGO", value: "true" }
-        - {name: "dev.user.MONGO_URL", value: "mongodb://mongodb-dev.lokeshviswa44.online:27017/users" }
-        - {name: "dev.user.REDIS_HOST", value: "redis-dev.lokeshviswa44.online" }
+        - {name: "dev.user.MONGO_URL", value: "mongodb://mongodb-dev.lokesh33.online:27017/users" }
+        - {name: "dev.user.REDIS_HOST", value: "redis-dev.lokesh33.online" }
         ## PROD Mutable & Immutable
-        #        - {name: "prod.cart.REDIS_HOST", value: "redis-prod.lokeshviswa44.online" }
-        #        - {name: "prod.cart.CATALOGUE_HOST", value: "catalogue-prod.lokeshviswa44.online" }
+        #        - {name: "prod.cart.REDIS_HOST", value: "redis-prod.lokesh33.online" }
+        #        - {name: "prod.cart.CATALOGUE_HOST", value: "catalogue-prod.lokesh33.online" }
         #        - {name: "prod.catalogue.MONGO", value: "true" }
-        #        - {name: "prod.catalogue.MONGO_URL", value: "mongodb://mongodb-prod.lokeshviswa44.online:27017/catalogue" }
-        #        - {name: "prod.catalogue.MONGO_URL", value: "mongodb://mongodb-prod.lokeshviswa44.online:27017/catalogue" }
-        #        - {name: "prod.frontend.CATALOGUE_URL", value: "http://catalogue-prod.lokeshviswa44.online:80/" }
-        #        - {name: "prod.frontend.CART_URL", value: "http://cart-prod.lokeshviswa44.online:80/" }
-        #        - {name: "prod.frontend.USER_URL", value: "http://user-prod.lokeshviswa44.online:80/" }
-        #        - {name: "prod.frontend.PAYMENT_URL", value: "http://payment-prod.lokeshviswa44.online:80/" }
-        #        - {name: "prod.frontend.SHIPPING_URL", value: "http://shipping-prod.lokeshviswa44.online:80/" }
-        #        - {name: "prod.payment.CART_HOST", value: "cart-prod.lokeshviswa44.online" }
-        #        - {name: "prod.payment.USER_HOST", value: "user-prod.lokeshviswa44.online" }
+        #        - {name: "prod.catalogue.MONGO_URL", value: "mongodb://mongodb-prod.lokesh33.online:27017/catalogue" }
+        #        - {name: "prod.catalogue.MONGO_URL", value: "mongodb://mongodb-prod.lokesh33.online:27017/catalogue" }
+        #        - {name: "prod.frontend.CATALOGUE_URL", value: "http://catalogue-prod.lokesh33.online:80/" }
+        #        - {name: "prod.frontend.CART_URL", value: "http://cart-prod.lokesh33.online:80/" }
+        #        - {name: "prod.frontend.USER_URL", value: "http://user-prod.lokesh33.online:80/" }
+        #        - {name: "prod.frontend.PAYMENT_URL", value: "http://payment-prod.lokesh33.online:80/" }
+        #        - {name: "prod.frontend.SHIPPING_URL", value: "http://shipping-prod.lokesh33.online:80/" }
+        #        - {name: "prod.payment.CART_HOST", value: "cart-prod.lokesh33.online" }
+        #        - {name: "prod.payment.USER_HOST", value: "user-prod.lokesh33.online" }
         #        - {name: "prod.payment.CART_PORT", value: "80" }
         #        - {name: "prod.payment.USER_PORT", value: "80" }
-        #        - {name: "prod.payment.AMQP_HOST", value: "rabbitmq-prod.lokeshviswa44.online" }
+        #        - {name: "prod.payment.AMQP_HOST", value: "rabbitmq-prod.lokesh33.online" }
         #        - {name: "prod.payment.AMQP_USER", value: "roboshop" }
-        #        - {name: "prod.shipping.CART_ENDPOINT", value: "cart-prod.lokeshviswa44.online:80" }
-        #        - {name: "prod.shipping.DB_HOST", value: "mysql-prod.lokeshviswa44.online" }
+        #        - {name: "prod.shipping.CART_ENDPOINT", value: "cart-prod.lokesh33.online:80" }
+        #        - {name: "prod.shipping.DB_HOST", value: "mysql-prod.lokesh33.online" }
         #        - {name: "prod.user.MONGO", value: "true" }
-        #        - {name: "prod.user.MONGO_URL", value: "mongodb://mongodb-prod.lokeshviswa44.online:27017/users" }
-        #        - {name: "prod.user.REDIS_HOST", value: "redis-prod.lokeshviswa44.online" }
+        #        - {name: "prod.user.MONGO_URL", value: "mongodb://mongodb-prod.lokesh33.online:27017/users" }
+        #        - {name: "prod.user.REDIS_HOST", value: "redis-prod.lokesh33.online" }
         # PROD KUBERNETES
         - {name: "prod.cart.REDIS_HOST", value: "prod-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com" }
         - {name: "prod.cart.CATALOGUE_HOST", value: "catalogue-roboshop" }
@@ -60,16 +60,16 @@
         - {name: "prod.catalogue.DOCDB_PASS", value: "RoboShop123" }
         - {name: "prod.catalogue.MONGO_URL", value: "mongodb://admin1:RoboShop123@prod-docdb-cluster.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
         - {name: "prod.catalogue.DOCDB_ENDPOINT", value: "prod-docdb-cluster.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017" }
-        - {name: "prod.frontend.CATALOGUE_URL", value: "http://catalogue-prod.lokeshviswa44.online:80/" }
-        - {name: "prod.frontend.CART_URL", value: "http://cart-prod.lokeshviswa44.online:80/" }
-        - {name: "prod.frontend.USER_URL", value: "http://user-prod.lokeshviswa44.online:80/" }
-        - {name: "prod.frontend.PAYMENT_URL", value: "http://payment-prod.lokeshviswa44.online:80/" }
-        - {name: "prod.frontend.SHIPPING_URL", value: "http://shipping-prod.lokeshviswa44.online:80/" }
+        - {name: "prod.frontend.CATALOGUE_URL", value: "http://catalogue-prod.lokesh33.online:80/" }
+        - {name: "prod.frontend.CART_URL", value: "http://cart-prod.lokesh33.online:80/" }
+        - {name: "prod.frontend.USER_URL", value: "http://user-prod.lokesh33.online:80/" }
+        - {name: "prod.frontend.PAYMENT_URL", value: "http://payment-prod.lokesh33.online:80/" }
+        - {name: "prod.frontend.SHIPPING_URL", value: "http://shipping-prod.lokesh33.online:80/" }
         - {name: "prod.payment.CART_HOST", value: "cart-roboshop" }
         - {name: "prod.payment.USER_HOST", value: "user-roboshop" }
         - {name: "prod.payment.CART_PORT", value: "8080" }
         - {name: "prod.payment.USER_PORT", value: "8080" }
-        - {name: "prod.payment.AMQP_HOST", value: "rabbitmq-prod.lokeshviswa44.online" }
+        - {name: "prod.payment.AMQP_HOST", value: "rabbitmq-prod.lokesh33.online" }
         - {name: "prod.payment.AMQP_USER", value: "roboshop" }
         - {name: "prod.shipping.CART_ENDPOINT", value: "cart-roboshop:8080" }
         - {name: "prod.shipping.DB_HOST", value: "prod-rds.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" }
@@ -140,26 +140,26 @@
 #        value: "{{ item.value }}"
 #        region: us-east-1
 #      loop:
-#        - {name: "dev.cart.REDIS_HOST", value: "redis-dev.lokeshviswa44.online" }
-#        - {name: "dev.cart.CATALOGUE_HOST", value: "catalogue-dev.lokeshviswa44.online" }
+#        - {name: "dev.cart.REDIS_HOST", value: "redis-dev.lokesh33.online" }
+#        - {name: "dev.cart.CATALOGUE_HOST", value: "catalogue-dev.lokesh33.online" }
 #        - {name: "dev.catalogue.MONGO", value: "true" }
-#        - {name: "dev.catalogue.MONGO_URL", value: "mongodb://mongodb-dev.lokeshviswa44.online:27017/catalogue" }
-#        - {name: "dev.frontend.CATALOGUE_URL", value: "http://catalogue-dev.lokeshviswa44.online:8080/" }
-#        - {name: "dev.frontend.CART_URL", value: "http://cart-dev.lokeshviswa44.online:8080/" }
-#        - {name: "dev.frontend.USER_URL", value: "http://user-dev.lokeshviswa44.online:8080/" }
-#        - {name: "dev.frontend.PAYMENT_URL", value: "http://payment-dev.lokeshviswa44.online:8080/" }
-#        - {name: "dev.frontend.SHIPPING_URL", value: "http://shipping-dev.lokeshviswa44.online:8080/" }
-#        - {name: "dev.payment.CART_HOST", value: "cart-dev.lokeshviswa44.online" }
-#        - {name: "dev.payment.USER_HOST", value: "user-dev.lokeshviswa44.online" }
+#        - {name: "dev.catalogue.MONGO_URL", value: "mongodb://mongodb-dev.lokesh33.online:27017/catalogue" }
+#        - {name: "dev.frontend.CATALOGUE_URL", value: "http://catalogue-dev.lokesh33.online:8080/" }
+#        - {name: "dev.frontend.CART_URL", value: "http://cart-dev.lokesh33.online:8080/" }
+#        - {name: "dev.frontend.USER_URL", value: "http://user-dev.lokesh33.online:8080/" }
+#        - {name: "dev.frontend.PAYMENT_URL", value: "http://payment-dev.lokesh33.online:8080/" }
+#        - {name: "dev.frontend.SHIPPING_URL", value: "http://shipping-dev.lokesh33.online:8080/" }
+#        - {name: "dev.payment.CART_HOST", value: "cart-dev.lokesh33.online" }
+#        - {name: "dev.payment.USER_HOST", value: "user-dev.lokesh33.online" }
 #        - {name: "dev.payment.CART_PORT", value: "8080" }
 #        - {name: "dev.payment.USER_PORT", value: "8080" }
-#        - {name: "dev.payment.AMQP_HOST", value: "rabbitmq-dev.lokeshviswa44.online" }
+#        - {name: "dev.payment.AMQP_HOST", value: "rabbitmq-dev.lokesh33.online" }
 #        - {name: "dev.payment.AMQP_USER", value: "roboshop" }
-#        - {name: "dev.shipping.CART_ENDPOINT", value: "cart-dev.lokeshviswa44.online:8080" }
-#        - {name: "dev.shipping.DB_HOST", value: "mysql-dev.lokeshviswa44.online" }
+#        - {name: "dev.shipping.CART_ENDPOINT", value: "cart-dev.lokesh33.online:8080" }
+#        - {name: "dev.shipping.DB_HOST", value: "mysql-dev.lokesh33.online" }
 #        - {name: "dev.user.MONGO", value: "true" }
-#        - {name: "dev.user.MONGO_URL", value: "mongodb://mongodb-dev.lokeshviswa44.online:27017/users" }
-#        - {name: "dev.user.REDIS_HOST", value: "redis-dev.lokeshviswa44.online" }
+#        - {name: "dev.user.MONGO_URL", value: "mongodb://mongodb-dev.lokesh33.online:27017/users" }
+#        - {name: "dev.user.REDIS_HOST", value: "redis-dev.lokesh33.online" }
 #
 #### PASSWORDS SHOULD NEVER BE KEPT IN THESE REPOS, THOSE SHOULD BE CREATED MANUALLY, BUT FOR LAB PURPOSE IAM CREATING HERE
 #    - name: Create Secrets
