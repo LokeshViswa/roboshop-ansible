@@ -1,4 +1,5 @@
-- name: Setup Frontend
-  ansible.builtin.debug:
-    msg: Hello From Frontend
+- name: Install the latest version of Nginx
+  ansible.builtin.dnf:
+    name: nginx
+    state: latest
 
