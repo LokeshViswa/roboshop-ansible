@@ -1,5 +1,6 @@
 - name: Setup Frontend
   hosts: all
   ansible.builtin.debug:
-    msg: Hello From Frontend
+    msg: Hello From Catalogue
+
 
