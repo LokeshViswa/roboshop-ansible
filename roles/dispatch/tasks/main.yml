@@ -1,0 +1,5 @@
+- name: Setup Frontend
+  ansible.builtin.debug:
+    msg: Hello From Catalogue
+
+
