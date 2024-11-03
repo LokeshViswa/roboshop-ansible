@@ -1,6 +1,8 @@
 - name: Install Python Deps
   ansible.builtin.dnf:
-    name: mysql
+    name:
+      - python3-PyMySQL
+      - mysql
     state: installed
 
 - name: Load MySQL Schema
