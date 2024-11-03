@@ -4,12 +4,12 @@
     dest: /etc/yum.repos.d/mongodb.repo
     
 - name: Install MongoDB Server
-  ansible.builtin.yum:
+  ansible.builtin.dnf:
     name: mongodb-org-shell
     state: installed
 
 - name: Load Schema
   community.mongodb.mongodb_shell:
-    login_host: mongodb-dev.lokesh33.online
+    login_host: mongo --host mongodb-dev.lokesh33.online
     file: "/app/schema/{{component}}.js"
     idempotent: yes
