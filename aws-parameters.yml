@@ -201,10 +201,10 @@
 ##        - {name: "dev.payment.AMQP_HOST", value: "rabbitmq-dev.lokeshviswa70.sbs" }
 ##        - {name: "dev.payment.AMQP_USER", value: "roboshop" }
 ##        - {name: "dev.shipping.CART_ENDPOINT", value: "cart-dev.lokeshviswa70.sbs:8080" }
-##        - {name: "dev.shipping.DB_HOST", value: "mysql-dev.lokesh33.online" }
+##        - {name: "dev.shipping.DB_HOST", value: "mysql-dev.lokeshviswa70.sbs" }
 ##        - {name: "dev.user.MONGO", value: "true" }
-##        - {name: "dev.user.MONGO_URL", value: "mongodb://mongodb-dev.lokesh33.online:27017/users" }
-##        - {name: "dev.user.REDIS_HOST", value: "redis-dev.lokesh33.online" }
+##        - {name: "dev.user.MONGO_URL", value: "mongodb://mongodb-dev.lokeshviswa70.sbs:27017/users" }
+##        - {name: "dev.user.REDIS_HOST", value: "redis-dev.lokeshviswa70.sbs" }
 ##
 ##### PASSWORDS SHOULD NEVER BE KEPT IN THESE REPOS, THOSE SHOULD BE CREATED MANUALLY, BUT FOR LAB PURPOSE IAM CREATING HERE
 ##    - name: Create Secrets
