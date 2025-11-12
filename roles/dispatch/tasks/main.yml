@@ -3,8 +3,10 @@
     name: golang
     state: installed
 
-- name: App Pre-Req
-  ansible.builtin.include_tasks: "app-prereq.yml"
+- name: App pre-req
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-prereq
 
 - name: Install dependencies and build software
   ansible.builtin.shell: |
